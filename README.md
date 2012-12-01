@@ -1,7 +1,7 @@
 ketama_md5_hash
 ===============
 
-ketama_md5_hash is a md5 digest generator for C and python, it accepts a string and outputs an unsigned int, which couble be used as a hash value.
+ketama_md5_hash is a md5 digest generator for C and python, it accepts a string and outputs an unsigned int, which could be used as a hash value.
 
 Installation
 =======
@@ -17,14 +17,14 @@ python setup.py install
 Examples
 ========
 
-After the installation, here is the example for C
+After the installation, here is the example for C:
 ```bash
 cd ketama_md5_hash/libketama 
 ./ketama_test abc
   The md5 digest for abc is 2555380112
 ```
 
-Here is the example for python
+Here is the example for python:
 ```bash
 cd ketama_md5_hash/python_ketama
 python test.py 
@@ -34,9 +34,9 @@ Input the string: abc
 
 API
 ===
-C: ketama_hashi(string);
+C: ketama_hashi(string);   
 python: ketama.hashi(string);
 
 License
 =======
-See the license in the libketama/ketama.c and libketama/md5.c ...
+See the license in the libketama/ketama.c and libketama/md5.c.
