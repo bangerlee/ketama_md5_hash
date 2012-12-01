@@ -11,7 +11,7 @@ int main(int argc, char** argv)
 
   unsigned int kh = ketama_hashi(argv[1]);
 
-  printf("%u\n", kh);
+  printf("  The md5 digest for %s is %u\n", argv[1], kh);
 
   return 0;
 }
